@@ -1,0 +1,121 @@
+{
+  "code": 0,
+  "message": "",
+  "result": {
+    "list": [
+      {
+        "id": 1,
+        "username": "汪强",
+        "sex": 1,
+        "state": 5,
+        "interest": 2,
+        "isMarried": 0,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 2,
+        "username": "彭涛",
+        "sex": 1,
+        "state": 3,
+        "interest": 5,
+        "isMarried": 1,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 3,
+        "username": "徐超",
+        "sex": 1,
+        "state": 3,
+        "interest": 7,
+        "isMarried": 1,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 4,
+        "username": "丁丽",
+        "sex": 1,
+        "state": 4,
+        "interest": 6,
+        "isMarried": 1,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 5,
+        "username": "毛娜",
+        "sex": 1,
+        "state": 5,
+        "interest": 4,
+        "isMarried": 1,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 6,
+        "username": "姚丽",
+        "sex": 2,
+        "state": 3,
+        "interest": 2,
+        "isMarried": 1,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 7,
+        "username": "戴明",
+        "sex": 1,
+        "state": 3,
+        "interest": 7,
+        "isMarried": 0,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 8,
+        "username": "易磊",
+        "sex": 2,
+        "state": 5,
+        "interest": 1,
+        "isMarried": 0,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 9,
+        "username": "孙杰",
+        "sex": 2,
+        "state": 2,
+        "interest": 8,
+        "isMarried": 0,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      },
+      {
+        "id": 10,
+        "username": "阎强",
+        "sex": 2,
+        "state": 1,
+        "interest": 5,
+        "isMarried": 1,
+        "birthday": "2000-01-01",
+        "address": "北京市海淀区",
+        "time": "09:00:00"
+      }
+    ],
+    "page": 2,
+    "page_size": 10,
+    "total_count": 30
+  }
+}

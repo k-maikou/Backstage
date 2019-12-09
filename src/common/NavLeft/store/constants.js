@@ -1,0 +1,2 @@
+export const HANDLE_LIST_DATA = 'nav/HANDLE_LIST_DATA';
+export const HANDLE_NAV_TITLE = 'nav/HANDLE_NAV_TITLE';

@@ -1,4 +1,5 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
+import './assets/css/index.scss';
 
 //css全局样式，reset.css
 export const GlobalStyle = createGlobalStyle`
@@ -45,4 +46,48 @@ export const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
-`;
+`
+
+export const container = {
+  display: 'flex'
+};
+
+export const navLeft = {
+  height: 'calc(100vh)',
+  background: '#001528',
+  overflow: 'hidden'
+};
+
+export const main = {
+  flex: 1,
+  background: '#f1f3f5',
+  height: 'calc(100vh)',
+  overflow: 'auto'
+};
+
+export const content = {
+  position: 'relative',
+  // padding: '20px',
+  height: 'calc(100vh-200px)'
+};
+
+export const CommonWrapper = styled.div`
+  .simple-page{
+    .header-top{
+      background: #1890ff;
+      color: #fff;
+
+      .logo{
+        line-height: 60px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        img{
+          height: 45px;
+          vertical-align: middle;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+`

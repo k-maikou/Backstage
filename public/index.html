@@ -10,8 +10,16 @@
       content="Web site created using create-react-app"
     />
     <title>React App</title>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=zm0dGjnau8CjYbATP0ob1myGaMAaDllM"></script>
   </head>
   <body>
     <div id="root"></div>
+    <div class="ajax-loading" id="ajaxLoading" style="display: none;">
+      <div class="overlay"></div>
+      <div class="loading">
+        <img src="https://media.number-7.cn/ebike-h5/static/images/common/loading.gif" alt="">
+        <span>加载中，请稍后...</span>
+      </div>
+    </div>
   </body>
 </html>
